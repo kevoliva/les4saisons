@@ -1,5 +1,5 @@
 import "./Season.css";
-import data from "./data.json";
+import data from "../data.json";
 import { formatDistanceStrict, formatDistanceToNowStrict } from "date-fns";
 
 function NextSeason({ name }) {

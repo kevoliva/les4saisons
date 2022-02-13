@@ -2,11 +2,11 @@ import { lazy, Suspense } from "react";
 import { isWithinInterval } from "date-fns";
 
 import "./App.css";
-import Modal from "./Modal";
-import Season from "./Season";
+import Modal from "./Modal/Modal";
+import Season from "./Season/Season";
 import data from "./data.json";
 
-const NextSeason = lazy(() => import("./NextSeason"));
+const NextSeason = lazy(() => import("./Season/NextSeason"));
 
 const current = Object.entries(data.seasons).filter(([name, season]) => {
   const currentYear = new Date().getFullYear();

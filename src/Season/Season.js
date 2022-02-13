@@ -2,7 +2,7 @@ import React from "react";
 import { formatDistanceToNowStrict } from "date-fns";
 
 import "./Season.css";
-import data from "./data.json";
+import data from "../data.json";
 
 function Season({ name }) {
   const season = data.seasons[name];
