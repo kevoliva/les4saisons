@@ -10,7 +10,7 @@ function Season({ name }) {
     new Date(
       currentYear + (name === "hiver" ? -1 : 0),
       season.beginAt.month - 1,
-      season.beginAt.day,
+      season.beginAt.day
     ),
     { unit: "day", addSuffix: true }
   );
