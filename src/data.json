@@ -1,30 +1,30 @@
 {
   "seasons": {
-    "ete": {
-      "name": "Été",
+    "summer": {
+      "name": "Summer",
       "icon": "☀️",
-      "next": "automne",
+      "next": "autumn",
       "beginAt": { "month": 6, "day": 21 },
       "endAt": { "month": 9, "day": 22 }
     },
-    "automne": {
-      "name": "Automne",
+    "autumn": {
+      "name": "Autumn",
       "icon": "🍂",
-      "next": "hiver",
+      "next": "winter",
       "beginAt": { "month": 9, "day": 23 },
       "endAt": { "month": 12, "day": 20 }
     },
-    "hiver": {
-      "name": "Hiver",
+    "winter": {
+      "name": "Winter",
       "icon": "❄️",
-      "next": "printemps",
+      "next": "spring",
       "beginAt": { "month": 12, "day": 21 },
       "endAt": { "month": 3, "day": 19 }
     },
-    "printemps": {
-      "name": "Printemps",
+    "spring": {
+      "name": "Spring",
       "icon": "🌸",
-      "next": "été",
+      "next": "summer",
       "beginAt": { "month": 3, "day": 20 },
       "endAt": { "month": 6, "day": 20 }
     }
